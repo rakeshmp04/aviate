@@ -1,0 +1,89 @@
+.application1{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    margin-top: 20px;  
+}
+.form{
+    padding: 10px 20px;  
+}
+input{
+    width: 70%;
+    height: 40px;
+    border-radius: 3px;
+    border-color: aliceblue;
+}
+.btn{
+  padding: 7px 50px;
+  border: 2px solid black;
+  box-shadow: 3px 2px;
+  border-radius: 10px;
+  background-color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.btn:hover{
+  background-color: yellow;
+}
+* {
+    box-sizing: border-box;
+  }
+.timeline {
+    position: relative;
+    margin-top: 20px;
+  }
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: whitesmoke;
+    top: 0;
+    bottom: 10%;
+    margin-left: 11px;
+  }
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }.container2 {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 0%;
+    top: 0px;
+    background-color: rgba(28, 212, 229, 0.989);
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .container2::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 0%;
+    top: 0px;
+    background-color: green;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .content {
+    padding: 20px 30px;
+    background-color: whitesmoke;
+    position: relative;
+    border-radius: 6px;
+  }
+  
+
+  
